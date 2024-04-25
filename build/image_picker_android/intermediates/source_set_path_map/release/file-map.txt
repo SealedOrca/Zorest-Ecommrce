@@ -1,0 +1,24 @@
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-viewmodel-2.6.1-0 C:\Users\SealedOrca\.gradle\caches\transforms-3\045131ccaca215f1be3f3ed1f6034e0d\transformed\lifecycle-viewmodel-2.6.1\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-activity-1.7.2-1 C:\Users\SealedOrca\.gradle\caches\transforms-3\0561d77adcb4014d8bfedaa23a99bead\transformed\jetified-activity-1.7.2\res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-runtime-2.6.1-2 C:\Users\SealedOrca\.gradle\caches\transforms-3\10696734bca46f3fddc10bdb5cad7d7a\transformed\lifecycle-runtime-2.6.1\res
+io.flutter.plugins.imagepicker.image_picker_android-core-runtime-2.2.0-3 C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f0dd636096db94a1020940be9e18a\transformed\core-runtime-2.2.0\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-startup-runtime-1.1.1-4 C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-livedata-core-2.6.1-5 C:\Users\SealedOrca\.gradle\caches\transforms-3\2c3cefefe10d026d171d8246529f6ea6\transformed\lifecycle-livedata-core-2.6.1\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-window-java-1.0.0-beta04-6 C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-savedstate-1.2.1-7 C:\Users\SealedOrca\.gradle\caches\transforms-3\6114df22b22fd1737b6dd1e1b9a15042\transformed\jetified-savedstate-1.2.1\res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-livedata-2.6.1-8 C:\Users\SealedOrca\.gradle\caches\transforms-3\675b01dd988ee28a4f06cc8033edb193\transformed\lifecycle-livedata-2.6.1\res
+io.flutter.plugins.imagepicker.image_picker_android-core-1.10.1-9 C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-window-1.0.0-beta04-10 C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-lifecycle-viewmodel-savedstate-2.6.1-11 C:\Users\SealedOrca\.gradle\caches\transforms-3\8a05bff19a740a20fb82a0111a9d757f\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-core-ktx-1.10.1-12 C:\Users\SealedOrca\.gradle\caches\transforms-3\ba9c4719470abb6e0ceea9eb086abf6f\transformed\jetified-core-ktx-1.10.1\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-annotation-experimental-1.3.0-13 C:\Users\SealedOrca\.gradle\caches\transforms-3\c98caad3e5e365f16ee4c90189aed24f\transformed\jetified-annotation-experimental-1.3.0\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-profileinstaller-1.3.0-14 C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\res
+io.flutter.plugins.imagepicker.image_picker_android-main-15 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.10\android\src\main\res
+io.flutter.plugins.imagepicker.image_picker_android-release-16 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.10\android\src\release\res
+io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
+io.flutter.plugins.imagepicker.image_picker_android-pngs-18 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\generated\res\pngs\release
+io.flutter.plugins.imagepicker.image_picker_android-resValues-19 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\generated\res\resValues\release
+io.flutter.plugins.imagepicker.image_picker_android-rs-20 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\generated\res\rs\release
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_res\release

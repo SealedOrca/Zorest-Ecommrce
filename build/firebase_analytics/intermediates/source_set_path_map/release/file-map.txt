@@ -1,0 +1,20 @@
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-firebase-common-20.4.3-0 C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-play-services-basement-18.3.0-1 C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-play-services-measurement-api-21.6.1-2 C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-window-java-1.0.0-beta04-3 C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-window-1.0.0-beta04-4 C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-ads-adservices-1.0.0-beta05-5 C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-ads-adservices-java-1.0.0-beta05-6 C:\Users\SealedOrca\.gradle\caches\transforms-3\9d4154e8458459f093842c804ad96c89\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-core-1.9.0-7 C:\Users\SealedOrca\.gradle\caches\transforms-3\a792261773626eb59694017b20e2b525\transformed\core-1.9.0\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-lifecycle-runtime-2.3.1-8 C:\Users\SealedOrca\.gradle\caches\transforms-3\af5e3472b0f4b9ed359a3275b6eb260f\transformed\lifecycle-runtime-2.3.1\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-core-ktx-1.9.0-9 C:\Users\SealedOrca\.gradle\caches\transforms-3\c4a042c2f9794bef7082b11f8a2c2352\transformed\jetified-core-ktx-1.9.0\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-annotation-experimental-1.3.0-10 C:\Users\SealedOrca\.gradle\caches\transforms-3\c98caad3e5e365f16ee4c90189aed24f\transformed\jetified-annotation-experimental-1.3.0\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-main-11 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_analytics-10.10.4\android\src\main\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-release-12 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_analytics-10.10.4\android\src\release\res
+io.flutter.plugins.firebase.analytics.firebase_analytics-pngs-13 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\generated\res\pngs\release
+io.flutter.plugins.firebase.analytics.firebase_analytics-resValues-14 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\generated\res\resValues\release
+io.flutter.plugins.firebase.analytics.firebase_analytics-rs-15 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\generated\res\rs\release
+io.flutter.plugins.firebase.analytics.firebase_analytics-mergeReleaseResources-16 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.analytics.firebase_analytics-mergeReleaseResources-17 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.analytics.firebase_analytics-merged_res-18 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_res\release
+io.flutter.plugins.firebase.analytics.firebase_analytics-packaged_res-19 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\packaged_res\release

@@ -1,30 +1,47 @@
+import 'package:fam1/controller/controller.dart';
 import 'package:flutter/material.dart';
 
 class PaymentMethodPage extends StatefulWidget {
+  final String userId;
+
+  const PaymentMethodPage({Key? key, required this.userId}) : super(key: key);
+
   @override
   _PaymentMethodPageState createState() => _PaymentMethodPageState();
 }
 
 class _PaymentMethodPageState extends State<PaymentMethodPage> {
-  List<Map<String, dynamic>> paymentMethods = [
-    {
-      'name': 'Credit Card',
-      'image': 'assets/am.png',
-      'details': '**** **** **** 1234',
-    },
-    {
-      'name': 'PayPal',
-      'image': 'assets/PayPal.png',
-      'details': 'john.doe@example.com',
-    },
-    {
-      'name': 'Google Pay',
-      'image': 'assets/g.png',
-      'details': 'john.doe@gmail.com',
-    },
-  ];
+  List<Map<String, Object>> paymentMethods = [];
+  Map<String, Object>? selectedPaymentMethod;
+  final DatabaseController _databaseController = DatabaseController();
 
-  Map<String, dynamic>? selectedPaymentMethod;
+  @override
+  void initState() {
+    super.initState();
+    _fetchPaymentMethods();
+  }
+
+  Future<void> _fetchPaymentMethods() async {
+    try {
+      List<Map<String, dynamic>> fetchedMethods =
+          await _databaseController.fetchPayments();
+      List<Map<String, Object>> parsedMethods = [];
+      for (var method in fetchedMethods) {
+        Map<String, Object> parsedMethod = {
+          'name': method['name'] ?? 'Unknown',
+          'accountNumber': method['accountNumber'] ?? '',
+          'expiryDate': method['expiryDate'] ?? '',
+          'cvv': method['cvv'] ?? '',
+        };
+        parsedMethods.add(parsedMethod);
+      }
+      setState(() {
+        paymentMethods = parsedMethods;
+      });
+    } catch (e) {
+      print('Error fetching payment methods: $e');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +66,7 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
               style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20.0),
-            _buildPaymentMethodCards(),
+            Expanded(child: _buildPaymentMethodCards()),
             const SizedBox(height: 30.0),
             _buildOptionsButtons(),
             const SizedBox(height: 40.0),
@@ -61,14 +78,17 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
   }
 
   Widget _buildPaymentMethodCards() {
-    return Column(
-      children: paymentMethods.map((method) {
+    return ListView.separated(
+      separatorBuilder: (BuildContext context, int index) => Divider(),
+      itemCount: paymentMethods.length,
+      itemBuilder: (BuildContext context, int index) {
+        final method = paymentMethods[index];
         return GestureDetector(
           onTap: () {
             _selectPaymentMethod(method);
           },
           child: Container(
-            margin: const EdgeInsets.symmetric(vertical: 8.0),
+            padding: const EdgeInsets.all(16.0),
             decoration: BoxDecoration(
               color: selectedPaymentMethod == method
                   ? Colors.blue.withOpacity(0.2)
@@ -84,24 +104,27 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
               ],
             ),
             child: ListTile(
-              leading: Image.asset(
-                method['image'],
-                width: 40.0,
-                height: 40.0,
-              ),
+              leading: _buildPaymentMethodIcon(method['name'] as String),
               title: Text(
-                method['name'],
+                method['name'] as String,
                 style: const TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.black,
                 ),
               ),
-              subtitle: Text(method['details']),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Account Number: ${method['accountNumber']}'),
+                  Text('Expiration Date: ${method['expiryDate']}'),
+                  Text('CVV: ${method['cvv']}'),
+                ],
+              ),
             ),
           ),
         );
-      }).toList(),
+      },
     );
   }
 
@@ -109,8 +132,8 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        _buildOptionButton('Add', Icons.add, Colors.white),
-        _buildOptionButton('Delete', Icons.delete, Colors.white),
+        _buildOptionButton('Add', Icons.add, Colors.green),
+        _buildOptionButton('Delete', Icons.delete, Colors.red),
       ],
     );
   }
@@ -118,7 +141,6 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
   Widget _buildOptionButton(String label, IconData icon, Color color) {
     return ElevatedButton.icon(
       onPressed: () {
-        // Handle option button logic
         if (label == 'Add') {
           _showAddPaymentDialog();
         } else if (label == 'Delete') {
@@ -126,7 +148,7 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
         }
       },
       style: ElevatedButton.styleFrom(
-        primary: color,
+        backgroundColor: color,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.0),
         ),
@@ -148,159 +170,150 @@ class _PaymentMethodPageState extends State<PaymentMethodPage> {
           ],
         ),
       ),
-      child: ElevatedButton(
-        onPressed: () {
-          _processPayment();
-        },
-        style: ElevatedButton.styleFrom(
-          primary: Colors.transparent,
-          onPrimary: Colors.white,
-          padding: const EdgeInsets.symmetric(vertical: 15.0),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10.0),
-          ),
-        ),
-        child: const Text(
-          'Process Payment',
-          style: TextStyle(fontSize: 15.0),
-        ),
-      ),
     );
   }
 
+  Widget _buildPaymentMethodIcon(String paymentMethod) {
+    switch (paymentMethod) {
+      case 'PayPal':
+        return const Icon(Icons.payment);
+      case 'American Express':
+        return const Icon(Icons.credit_card);
+      case 'Google Pay':
+        return const Icon(Icons.payment);
+      default:
+        return const Icon(Icons.credit_card);
+    }
+  }
+
   Future<void> _showAddPaymentDialog() async {
-    TextEditingController nameController = TextEditingController();
-    TextEditingController detailsController = TextEditingController();
-    String selectedPaymentMethod = 'PayPal';
+    TextEditingController accountNumberController = TextEditingController();
+    TextEditingController expiryDateController = TextEditingController();
+    TextEditingController cvvController = TextEditingController();
 
     await showDialog(
       context: context,
       builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text('Add New Payment Method'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              TextFormField(
-                controller: nameController,
-                decoration:
-                    const InputDecoration(labelText: 'Acount Name/Email'),
+        return StatefulBuilder(
+          builder: (context, setState) {
+            return AlertDialog(
+              title: const Text('Add New Payment Method'),
+              content: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    DropdownButtonFormField<String>(
+                      value: 'PayPal',
+                      onChanged: (String? newValue) {},
+                      items: <String>[
+                        'PayPal',
+                        'American Express',
+                        'Google Pay',
+                      ].map<DropdownMenuItem<String>>((String value) {
+                        return DropdownMenuItem<String>(
+                          value: value,
+                          child: Row(
+                            children: <Widget>[
+                              _buildPaymentMethodIcon(value),
+                              const SizedBox(width: 10.0),
+                              Text(value),
+                            ],
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                    TextFormField(
+                      controller: accountNumberController,
+                      decoration:
+                          const InputDecoration(labelText: 'Account Number'),
+                    ),
+                    TextFormField(
+                      controller: expiryDateController,
+                      decoration:
+                          const InputDecoration(labelText: 'Expiration Date'),
+                    ),
+                    TextFormField(
+                      controller: cvvController,
+                      decoration: const InputDecoration(labelText: 'CVV'),
+                    ),
+                  ],
+                ),
               ),
-              TextFormField(
-                controller: detailsController,
-                decoration: const InputDecoration(labelText: 'Acount Number'),
-              ),
-              const SizedBox(height: 10),
-              DropdownButton<String>(
-                value: selectedPaymentMethod,
-                onChanged: (String? newValue) {
-                  if (newValue != null) {
-                    setState(() {
-                      selectedPaymentMethod = newValue;
-                    });
-                  }
-                },
-                items: <String>['PayPal', 'American Express', 'Google Pay']
-                    .map<DropdownMenuItem<String>>((String value) {
-                  return DropdownMenuItem<String>(
-                    value: value,
-                    child: Text(value),
-                  );
-                }).toList(),
-              ),
-            ],
-          ),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              child: const Text('Cancel'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                _addPaymentMethod({
-                  'name': nameController.text,
-                  'image': _getImagePath(selectedPaymentMethod),
-                  'details': detailsController.text,
-                });
-                Navigator.of(context).pop();
-              },
-              child: const Text('Add'),
-            ),
-          ],
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: const Text('Cancel'),
+                ),
+                ElevatedButton(
+                  onPressed: () async {
+                    Map<String, Object> newPaymentMethod = {
+                      
+                      'accountNumber': accountNumberController.text,
+                      'expiryDate': expiryDateController.text,
+                      'cvv': cvvController.text,
+                      'userId': widget.userId,
+                    };
+                    _addPaymentMethod(newPaymentMethod);
+                    _databaseController.savePaymentMethod(newPaymentMethod);
+                    Navigator.of(context).pop();
+                  },
+                  child: const Text('Add'),
+                ),
+              ],
+            );
+          },
         );
       },
     );
   }
 
-  String _getImagePath(String paymentMethod) {
-    switch (paymentMethod) {
-      case 'PayPal':
-        return 'assets/PayPal.png';
-      case 'American Express':
-        return 'assets/am.png';
-      case 'Google Pay':
-        return 'assets/g.png';
-      default:
-        return 'assets/mastercard.jpg'; // Change this to the default image path
-    }
-  }
-
-  void _addPaymentMethod(Map<String, dynamic> newPaymentMethod) {
+  void _addPaymentMethod(Map<String, Object> newPaymentMethod) {
     setState(() {
       paymentMethods.add(newPaymentMethod);
+      selectedPaymentMethod = newPaymentMethod;
     });
   }
 
-  void _selectPaymentMethod(Map<String, dynamic> method) {
+  void _selectPaymentMethod(Map<String, Object> method) {
     setState(() {
       selectedPaymentMethod = method;
     });
   }
 
-  void _deletePaymentMethod() {
-    // Implement logic to delete the selected payment method
+  Future<void> _deletePaymentMethod() async {
     if (selectedPaymentMethod != null) {
-      setState(() {
-        paymentMethods.remove(selectedPaymentMethod);
-        selectedPaymentMethod = null;
-      });
+      final confirmed = await showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: const Text('Confirmation'),
+            content: const Text(
+                'Are you sure you want to delete this payment method?'),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop(false);
+                },
+                child: const Text('Cancel'),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).pop(true);
+                },
+                child: const Text('Delete'),
+              ),
+            ],
+          );
+        },
+      );
+      if (confirmed == true) {
+        setState(() {
+          paymentMethods.remove(selectedPaymentMethod);
+          selectedPaymentMethod = null;
+        });
+      }
     }
   }
-
-  void _processPayment() {
-    // Implement logic to process payment using the selected payment method
-    if (selectedPaymentMethod != null) {
-      _showPaymentConfirmationDialog();
-    }
-  }
-
-  Future<void> _showPaymentConfirmationDialog() async {
-    return showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text('Payment Successful'),
-          content: const Text('Thank you for your purchase!'),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              child: const Text('OK'),
-            ),
-          ],
-        );
-      },
-    );
-  }
-}
-
-void main() {
-  runApp(
-    MaterialApp(
-      home: PaymentMethodPage(),
-    ),
-  );
 }

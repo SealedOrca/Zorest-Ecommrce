@@ -1,0 +1,4 @@
+#Wed Apr 24 22:11:53 AST 2024
+base.0=C\:\\Users\\SealedOrca\\Downloads\\New folder\\Projects\\fam1\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,22 @@
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-annotation-experimental-1.1.0-0 C:\Users\SealedOrca\.gradle\caches\transforms-3\23b97218542bebd118095244a03b924e\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.googlesignin.google_sign_in_android-lifecycle-viewmodel-2.5.1-1 C:\Users\SealedOrca\.gradle\caches\transforms-3\37cf87b813fe7945f98f275407dbd217\transformed\lifecycle-viewmodel-2.5.1\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-window-java-1.0.0-beta04-2 C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-base-18.0.1-3 C:\Users\SealedOrca\.gradle\caches\transforms-3\585bb87f7f9fd43b643d5993ee93e214\transformed\jetified-play-services-base-18.0.1\res
+io.flutter.plugins.googlesignin.google_sign_in_android-fragment-1.5.7-4 C:\Users\SealedOrca\.gradle\caches\transforms-3\65f1aaf99490f64b1288e42db5170392\transformed\fragment-1.5.7\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-window-1.0.0-beta04-5 C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-activity-1.5.1-6 C:\Users\SealedOrca\.gradle\caches\transforms-3\761f953c2d7f14fa17bbf30ca1d9cce5\transformed\jetified-activity-1.5.1\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-lifecycle-viewmodel-savedstate-2.5.1-7 C:\Users\SealedOrca\.gradle\caches\transforms-3\85c068db91f23c2b805795c5b4a67cf5\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-basement-18.2.0-8 C:\Users\SealedOrca\.gradle\caches\transforms-3\8ae047db2ce8446e8ef9046617dbf528\transformed\jetified-play-services-basement-18.2.0\res
+io.flutter.plugins.googlesignin.google_sign_in_android-lifecycle-livedata-core-2.5.1-9 C:\Users\SealedOrca\.gradle\caches\transforms-3\a8b2b24f9bda98f30c1f60a948ceecca\transformed\lifecycle-livedata-core-2.5.1\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-auth-21.0.0-10 C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\res
+io.flutter.plugins.googlesignin.google_sign_in_android-core-1.8.0-11 C:\Users\SealedOrca\.gradle\caches\transforms-3\c5348ec81bd921c78b69565584a91689\transformed\core-1.8.0\res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-savedstate-1.2.0-12 C:\Users\SealedOrca\.gradle\caches\transforms-3\f2599ea4bbc627c77cfbd29700076fdd\transformed\jetified-savedstate-1.2.0\res
+io.flutter.plugins.googlesignin.google_sign_in_android-lifecycle-runtime-2.5.1-13 C:\Users\SealedOrca\.gradle\caches\transforms-3\f280b462eecd53f9aa3a5489399bab1a\transformed\lifecycle-runtime-2.5.1\res
+io.flutter.plugins.googlesignin.google_sign_in_android-main-14 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_android-6.1.23\android\src\main\res
+io.flutter.plugins.googlesignin.google_sign_in_android-release-15 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_android-6.1.23\android\src\release\res
+io.flutter.plugins.googlesignin.google_sign_in_android-pngs-16 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\generated\res\pngs\release
+io.flutter.plugins.googlesignin.google_sign_in_android-resValues-17 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\generated\res\resValues\release
+io.flutter.plugins.googlesignin.google_sign_in_android-rs-18 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\generated\res\rs\release
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-19 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-20 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-merged_res-21 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\merged_res\release

@@ -1,0 +1,862 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:3:5-33:19
+MERGED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-19:19
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-19:19
+MERGED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-34:19
+MERGED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-34:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-analytics:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\761fe43de8137e0b50b4e2e1c764521d\transformed\jetified-firebase-analytics-21.6.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\761fe43de8137e0b50b4e2e1c764521d\transformed\jetified-firebase-analytics-21.6.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f82d78386fe9c0b46ad4746f70f5b723\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f82d78386fe9c0b46ad4746f70f5b723\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\217f56757ec7f0e6a963580dd04e9366\transformed\jetified-play-services-measurement-sdk-21.6.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\217f56757ec7f0e6a963580dd04e9366\transformed\jetified-play-services-measurement-sdk-21.6.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1248236a97098f364a2b8546baa91b4f\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1248236a97098f364a2b8546baa91b4f\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d75f1f60e54cb831c73092e6ae6e587c\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d75f1f60e54cb831c73092e6ae6e587c\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4275ca494f29e48d78155b1741c809c6\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4275ca494f29e48d78155b1741c809c6\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\18218647f640a46ddb43d1c3e0c2466b\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\18218647f640a46ddb43d1c3e0c2466b\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\129d10222efeeddc5f06e806271f7b72\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\129d10222efeeddc5f06e806271f7b72\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f7d2dab07f96d8475ac21d61f62e8bdd\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f7d2dab07f96d8475ac21d61f62e8bdd\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\06ac484260044425e05308e1ebe11a58\transformed\jetified-play-services-measurement-base-21.6.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\06ac484260044425e05308e1ebe11a58\transformed\jetified-play-services-measurement-base-21.6.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\28de5d58e66b35048b581a09ac402705\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\28de5d58e66b35048b581a09ac402705\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\929763881f582bbd9dcaba3c54c8039f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\929763881f582bbd9dcaba3c54c8039f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+MERGED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-36:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:shared_preferences_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-analytics:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\761fe43de8137e0b50b4e2e1c764521d\transformed\jetified-firebase-analytics-21.6.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f82d78386fe9c0b46ad4746f70f5b723\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\217f56757ec7f0e6a963580dd04e9366\transformed\jetified-play-services-measurement-sdk-21.6.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1248236a97098f364a2b8546baa91b4f\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d75f1f60e54cb831c73092e6ae6e587c\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\c8263b54e808567f5a3bd7a8e54e83f1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\1b1979e6a4cf6f1d6cbdf0b4188a9cb4\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\SealedOrca\.gradle\caches\transforms-3\c8010ad8cc87ecf7e0fb006c3b17be91\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4275ca494f29e48d78155b1741c809c6\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\b8ff269d959c7b0c7e8c991fdce9c744\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\18218647f640a46ddb43d1c3e0c2466b\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\ee859697014cfbc7147f72b04e4b6324\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1eced0e5a9f75e7d8cda12d60c47f380\transformed\loader-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\975937c076ed52a8e193e17b877cc5b9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\9d4154e8458459f093842c804ad96c89\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ba9c4719470abb6e0ceea9eb086abf6f\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\6416059ea680ab3e2d889d921afacf0c\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\6114df22b22fd1737b6dd1e1b9a15042\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\2c3cefefe10d026d171d8246529f6ea6\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\045131ccaca215f1be3f3ed1f6034e0d\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\10696734bca46f3fddc10bdb5cad7d7a\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\8a05bff19a740a20fb82a0111a9d757f\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\3680fe4c2273bb008630a712eb81a145\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\129d10222efeeddc5f06e806271f7b72\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f7d2dab07f96d8475ac21d61f62e8bdd\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\06ac484260044425e05308e1ebe11a58\transformed\jetified-play-services-measurement-base-21.6.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\28de5d58e66b35048b581a09ac402705\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\SealedOrca\.gradle\caches\transforms-3\65f1aaf99490f64b1288e42db5170392\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\0561d77adcb4014d8bfedaa23a99bead\transformed\jetified-activity-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\SealedOrca\.gradle\caches\transforms-3\34df266b1d4831d19a6078e63b3038ef\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\a63b3b6f5fb1cfe1973097d938a52bca\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\SealedOrca\.gradle\caches\transforms-3\5e3e1ff4e8863c566e32d47725a84f57\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\c1cdd002b597dc2acfbb297b70dc4f0c\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\466f6bd7f584791cb3fc2f83b28c5c5a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\929763881f582bbd9dcaba3c54c8039f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f0dd636096db94a1020940be9e18a\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d823508ad7835ab0f8e057850bf3bb70\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\0e4e2b3b177d179eeb9571f4f65fa80b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\c98caad3e5e365f16ee4c90189aed24f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\a6d5655a499cb7de12c30fc9103f7006\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\7e4a56f906ec075475f16d683b61602c\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f83febf6312d8ed0ec8701f10f7c966c\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:1-34:12
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:2:1-63
+MERGED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:2:1-63
+MERGED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:2:1-63
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+MERGED from [:google_sign_in_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:google_sign_in_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:2:18-60
+uses-sdk
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\761fe43de8137e0b50b4e2e1c764521d\transformed\jetified-firebase-analytics-21.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\761fe43de8137e0b50b4e2e1c764521d\transformed\jetified-firebase-analytics-21.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f82d78386fe9c0b46ad4746f70f5b723\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f82d78386fe9c0b46ad4746f70f5b723\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\217f56757ec7f0e6a963580dd04e9366\transformed\jetified-play-services-measurement-sdk-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\217f56757ec7f0e6a963580dd04e9366\transformed\jetified-play-services-measurement-sdk-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1248236a97098f364a2b8546baa91b4f\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1248236a97098f364a2b8546baa91b4f\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d75f1f60e54cb831c73092e6ae6e587c\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d75f1f60e54cb831c73092e6ae6e587c\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\c8263b54e808567f5a3bd7a8e54e83f1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\c8263b54e808567f5a3bd7a8e54e83f1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\1b1979e6a4cf6f1d6cbdf0b4188a9cb4\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\1b1979e6a4cf6f1d6cbdf0b4188a9cb4\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\SealedOrca\.gradle\caches\transforms-3\c8010ad8cc87ecf7e0fb006c3b17be91\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\SealedOrca\.gradle\caches\transforms-3\c8010ad8cc87ecf7e0fb006c3b17be91\transformed\jetified-play-services-auth-base-18.0.10\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4275ca494f29e48d78155b1741c809c6\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4275ca494f29e48d78155b1741c809c6\transformed\jetified-play-services-fido-20.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\b8ff269d959c7b0c7e8c991fdce9c744\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\b8ff269d959c7b0c7e8c991fdce9c744\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\18218647f640a46ddb43d1c3e0c2466b\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\18218647f640a46ddb43d1c3e0c2466b\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\ee859697014cfbc7147f72b04e4b6324\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\ee859697014cfbc7147f72b04e4b6324\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1eced0e5a9f75e7d8cda12d60c47f380\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1eced0e5a9f75e7d8cda12d60c47f380\transformed\loader-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\975937c076ed52a8e193e17b877cc5b9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\975937c076ed52a8e193e17b877cc5b9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\9d4154e8458459f093842c804ad96c89\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\9d4154e8458459f093842c804ad96c89\transformed\jetified-ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ba9c4719470abb6e0ceea9eb086abf6f\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ba9c4719470abb6e0ceea9eb086abf6f\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\6416059ea680ab3e2d889d921afacf0c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\6416059ea680ab3e2d889d921afacf0c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\6114df22b22fd1737b6dd1e1b9a15042\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\6114df22b22fd1737b6dd1e1b9a15042\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\2c3cefefe10d026d171d8246529f6ea6\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\2c3cefefe10d026d171d8246529f6ea6\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\045131ccaca215f1be3f3ed1f6034e0d\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\045131ccaca215f1be3f3ed1f6034e0d\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\10696734bca46f3fddc10bdb5cad7d7a\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\10696734bca46f3fddc10bdb5cad7d7a\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\8a05bff19a740a20fb82a0111a9d757f\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\8a05bff19a740a20fb82a0111a9d757f\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\3680fe4c2273bb008630a712eb81a145\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\3680fe4c2273bb008630a712eb81a145\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\129d10222efeeddc5f06e806271f7b72\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\129d10222efeeddc5f06e806271f7b72\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f7d2dab07f96d8475ac21d61f62e8bdd\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f7d2dab07f96d8475ac21d61f62e8bdd\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\06ac484260044425e05308e1ebe11a58\transformed\jetified-play-services-measurement-base-21.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\06ac484260044425e05308e1ebe11a58\transformed\jetified-play-services-measurement-base-21.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\28de5d58e66b35048b581a09ac402705\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\28de5d58e66b35048b581a09ac402705\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\SealedOrca\.gradle\caches\transforms-3\65f1aaf99490f64b1288e42db5170392\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\SealedOrca\.gradle\caches\transforms-3\65f1aaf99490f64b1288e42db5170392\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\0561d77adcb4014d8bfedaa23a99bead\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\0561d77adcb4014d8bfedaa23a99bead\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\SealedOrca\.gradle\caches\transforms-3\34df266b1d4831d19a6078e63b3038ef\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\SealedOrca\.gradle\caches\transforms-3\34df266b1d4831d19a6078e63b3038ef\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\a63b3b6f5fb1cfe1973097d938a52bca\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\a63b3b6f5fb1cfe1973097d938a52bca\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\SealedOrca\.gradle\caches\transforms-3\5e3e1ff4e8863c566e32d47725a84f57\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\SealedOrca\.gradle\caches\transforms-3\5e3e1ff4e8863c566e32d47725a84f57\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\c1cdd002b597dc2acfbb297b70dc4f0c\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\c1cdd002b597dc2acfbb297b70dc4f0c\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\466f6bd7f584791cb3fc2f83b28c5c5a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\466f6bd7f584791cb3fc2f83b28c5c5a\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\929763881f582bbd9dcaba3c54c8039f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\929763881f582bbd9dcaba3c54c8039f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f0dd636096db94a1020940be9e18a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f0dd636096db94a1020940be9e18a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d823508ad7835ab0f8e057850bf3bb70\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d823508ad7835ab0f8e057850bf3bb70\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\0e4e2b3b177d179eeb9571f4f65fa80b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\0e4e2b3b177d179eeb9571f4f65fa80b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\c98caad3e5e365f16ee4c90189aed24f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\c98caad3e5e365f16ee4c90189aed24f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\a6d5655a499cb7de12c30fc9103f7006\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\a6d5655a499cb7de12c30fc9103f7006\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\7e4a56f906ec075475f16d683b61602c\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\7e4a56f906ec075475f16d683b61602c\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f83febf6312d8ed0ec8701f10f7c966c\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f83febf6312d8ed0ec8701f10f7c966c\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\debug\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+MERGED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+MERGED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\7e4a56f906ec075475f16d683b61602c\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\7e4a56f906ec075475f16d683b61602c\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-65
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-128
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33:19
+	android:enabled
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+	android:exported
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-40
+	android:name
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-28:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-94
+	android:name
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:36
+	android:value
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-33
+	android:name
+		ADDED from [:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-63
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:21:17-111
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f7d2dab07f96d8475ac21d61f62e8bdd\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\f7d2dab07f96d8475ac21d61f62e8bdd\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4d12b6907d3340c93cd257e2ce04158a\transformed\jetified-play-services-measurement-sdk-api-21.6.1\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\240162e85834559e1a70f0702d14e01d\transformed\jetified-play-services-measurement-impl-21.6.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+permission#com.example.fam1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.fam1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\1a3f45cf7e48d2dddac9135f102aa9a1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

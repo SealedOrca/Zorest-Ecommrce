@@ -5,10 +5,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:lottie/lottie.dart';
 
 class UserProfilePage extends StatefulWidget {
-  const UserProfilePage({Key? key}) : super(key: key);
+  const UserProfilePage({super.key});
 
   @override
   _UserProfilePageState createState() => _UserProfilePageState();
@@ -23,39 +22,45 @@ class _UserProfilePageState extends State<UserProfilePage> {
   late TextEditingController _aboutController;
 
   bool _editMode = false;
+@override
+void initState() {
+  super.initState();
+  _auth = FirebaseAuth.instance;
+  _user = _auth.currentUser!;
+  _userProfilePicture = null;
+  _userNameController = TextEditingController();
+  _userEmailController = TextEditingController(text: _user.email);
+  _aboutController = TextEditingController(text: '');
 
-  @override
-  void initState() {
-    super.initState();
-    _auth = FirebaseAuth.instance;
+  _loadUserData();
+}
+
+Future<void> _loadUserData() async {
+  try {
+    // Reload the user to fetch the latest data
+    await _user.reload();
     _user = _auth.currentUser!;
-    _userProfilePicture = null;
-    _userNameController = TextEditingController(text: _user.displayName ?? '');
-    _userEmailController = TextEditingController(text: _user.email);
-    _aboutController = TextEditingController(text: '');
-    _loadUserData();
-  }
 
-  Future<void> _loadUserData() async {
-    try {
-      final userData = await FirebaseFirestore.instance
-          .collection('users')
-          .doc(_user.uid)
-          .get();
-      if (userData.exists) {
-        final about = userData['about'] as String?;
-        final profilePicture = userData['profilePicture'] as String?;
-        setState(() {
-          _aboutController.text = about ?? '';
-          if (profilePicture != null) {
-            _userProfilePicture = File(profilePicture);
-          }
-        });
-      }
-    } catch (e) {
-      print('Error loading user data: $e');
+    final userData = await FirebaseFirestore.instance
+        .collection('users')
+        .doc(_user.uid)
+        .get();
+    if (userData.exists) {
+      final about = userData['about'] as String?;
+      final profilePicture = userData['profilePicture'] as String?;
+      setState(() {
+        _aboutController.text = about ?? '';
+        _userNameController.text = _user.displayName ?? ''; // Fetch name properly
+        if (profilePicture != null) {
+          _userProfilePicture = File(profilePicture);
+        }
+      });
     }
+  } catch (e) {
+    print('Error loading user data: $e');
   }
+}
+
 
   Future<void> _updateUserProfile() async {
     try {
@@ -175,7 +180,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
                       color: Colors.grey.withOpacity(0.5),
                       spreadRadius: 2,
                       blurRadius: 7,
-                      offset: Offset(0, 3),
+                      offset: const Offset(0, 3),
                     ),
                   ],
                   color: Colors.grey[200],
@@ -229,7 +234,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
                       color: Colors.grey.withOpacity(0.5),
                       spreadRadius: 2,
                       blurRadius: 7,
-                      offset: Offset(0, 3),
+                      offset: const Offset(0, 3),
                     ),
                   ],
                   color: Colors.grey[200],
@@ -273,7 +278,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
             color: Colors.grey.withOpacity(0.5),
             spreadRadius: 2,
             blurRadius: 7,
-            offset: Offset(0, 3),
+            offset: const Offset(0, 3),
           ),
         ],
       ),
@@ -306,7 +311,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
             color: Colors.grey.withOpacity(0.5),
             spreadRadius: 2,
             blurRadius: 7,
-            offset: Offset(0, 3),
+            offset: const Offset(0, 3),
           ),
         ],
       ),
@@ -331,6 +336,103 @@ class _UserProfilePageState extends State<UserProfilePage> {
         ],
       ),
     );
+  }
+}
+
+class ProfilePage extends StatefulWidget {
+  const ProfilePage({super.key});
+
+  @override
+  _ProfilePageState createState() => _ProfilePageState();
+}
+
+class _ProfilePageState extends State<ProfilePage> {
+  final TextEditingController _nameController = TextEditingController();
+  final TextEditingController _phoneController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  File? _image;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Profile'),
+        actions: [
+          IconButton(
+            onPressed: _saveProfileData,
+            icon: const Icon(Icons.save),
+          ),
+        ],
+      ),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: GestureDetector(
+                onTap: _selectImage,
+                child: CircleAvatar(
+                  radius: 80,
+                  backgroundImage: _image != null ? FileImage(_image!) : null,
+                  child: _image == null ? const Icon(Icons.add_a_photo) : null,
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            TextFormField(
+              controller: _nameController,
+              decoration: const InputDecoration(
+                labelText: 'Name',
+                border: OutlineInputBorder(),
+              ),
+            ),
+            const SizedBox(height: 20),
+            TextFormField(
+              controller: _emailController,
+              enabled: false,
+              decoration: const InputDecoration(
+                labelText: 'Email',
+                border: OutlineInputBorder(),
+              ),
+            ),
+            const SizedBox(height: 20),
+            TextFormField(
+              controller: _phoneController,
+              decoration: const InputDecoration(
+                labelText: 'Phone',
+                border: OutlineInputBorder(),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future<void> _selectImage() async {
+    // Implement image selection logic here
+  }
+
+  Future<void> _saveProfileData() async {
+    try {
+      final updatedUserData = {
+        'name': _nameController.text.trim(),
+        'phone': _phoneController.text.trim(),
+      };
+      User? user = FirebaseAuth.instance.currentUser;
+      if (user != null) {
+        // await _databaseController.editUserData(user.uid, updatedUserData);
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+          content: Text('Profile updated successfully'),
+        ));
+      }
+    } catch (e) {
+      print('Error saving profile data: $e');
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text('Failed to update profile'),
+      ));
+    }
   }
 }
 

@@ -51,6 +51,7 @@ class DefaultFirebaseOptions {
     authDomain: 'fam1-b4d5b.firebaseapp.com',
     databaseURL: 'https://fam1-b4d5b-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'fam1-b4d5b.appspot.com',
+    measurementId: 'G-18F4B2M7WP',
   );
 
   static const FirebaseOptions android = FirebaseOptions(

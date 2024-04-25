@@ -1,0 +1,515 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fam1"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:2:1-63
+11-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:2:18-60
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+12-->[:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-68
+13-->[:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+15-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:26:5-88
+15-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:26:22-85
+16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:27:5-82
+16-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:27:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+18-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d019debd099fb515df0cdbf0aaf4db7b\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+19
+20    <permission
+20-->[androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.fam1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.fam1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+25
+26    <application
+27        android:name="android.app.Application"
+27-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:5:9-42
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.10.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\69e6db934433eae1d887ea156ffe6e16\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:6:9-43
+30        android:label="fam1" >
+30-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:4:9-29
+31        <activity
+31-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:7:9-27:20
+32            android:name="com.example.fam1.MainActivity"
+32-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:8:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:12:13-163
+34            android:exported="true"
+34-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:9:13-36
+35            android:hardwareAccelerated="true"
+35-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:13:13-47
+36            android:launchMode="singleTop"
+36-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:10:13-43
+37            android:theme="@style/LaunchTheme"
+37-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:11:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:14:13-55
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:19:13-22:17
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:20:15-70
+48                android:resource="@style/NormalTheme" />
+48-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:21:15-52
+49
+50            <intent-filter>
+50-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:23:13-26:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:24:17-68
+51-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:24:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:25:17-76
+53-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:25:27-74
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+60-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:30:9-32:33
+61            android:name="flutterEmbedding"
+61-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:31:13-44
+62            android:value="2" />
+62-->C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\android\app\src\main\AndroidManifest.xml:32:13-30
+63
+64        <service
+64-->[:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:32:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
+68            <meta-data
+68-->[:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+69-->[:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-127
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_database] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+71            <meta-data
+71-->[:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+72-->[:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:cloud_firestore] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+74            <meta-data
+74-->[:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:85
+75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+75-->[:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-128
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:firebase_analytics] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-82
+77            <meta-data
+77-->[:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+78-->[:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_auth] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+80            <meta-data
+80-->[:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+81-->[:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-126
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_storage] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+83            <meta-data
+83-->[:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+84-->[:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:firebase_core] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:29:13-31:85
+90                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+90-->[com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:30:17-120
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:31:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+93-->[com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:33:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-database:20.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\ddf31da7b7c30fcff9b3a23e03190db1\transformed\jetified-firebase-database-20.3.1\AndroidManifest.xml:34:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:17:13-19:85
+96                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+96-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:18:17-122
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:19:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:20:13-22:85
+99                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+99-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:21:17-111
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-firestore:24.11.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7ea4f56136ebf10b1a3d72700f58f746\transformed\jetified-firebase-firestore-24.11.0\AndroidManifest.xml:22:17-82
+101            <meta-data
+101-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:37:13-39:85
+102                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+102-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:38:17-139
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:39:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+105                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+105-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+108                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+108-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\d929d9dc2e99810603c61405a8912019\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+111-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\978bad5c4e1c7885b2483ab51fc714c5\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
+117                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+117-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
+120                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+120-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-appcheck:17.1.2] C:\Users\SealedOrca\.gradle\caches\transforms-3\dedf49532a0b32fbb21bf95f31b0bc14\transformed\jetified-firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:12:13-14:85
+123                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+123-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:13:17-116
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\75f0dcc0694e1e191f34f51c85ab513d\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:14:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:35:13-37:85
+126                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+126-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:36:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:37:17-82
+128        </service>
+129
+130        <provider
+130-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-19:20
+131            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+131-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-82
+132            android:authorities="com.example.fam1.flutter.image_provider"
+132-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-74
+133            android:exported="false"
+133-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-37
+134            android:grantUriPermissions="true" >
+134-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-47
+135            <meta-data
+135-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-18:75
+136                android:name="android.support.FILE_PROVIDER_PATHS"
+136-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-67
+137                android:resource="@xml/flutter_image_picker_file_paths" />
+137-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-72
+138        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+139        <service
+139-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33:19
+140            android:name="com.google.android.gms.metadata.ModuleDependencies"
+140-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-78
+141            android:enabled="false"
+141-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+142            android:exported="false" >
+142-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+143            <intent-filter>
+143-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-28:29
+144                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+144-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-94
+144-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-91
+145            </intent-filter>
+146
+147            <meta-data
+147-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:36
+148                android:name="photopicker_activity:0:required"
+148-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-63
+149                android:value="" />
+149-->[:image_picker_android] C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-33
+150        </service>
+151
+152        <activity
+152-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+153            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+153-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+154            android:excludeFromRecents="true"
+154-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+155            android:exported="true"
+155-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+156            android:launchMode="singleTask"
+156-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+157-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+158            <intent-filter>
+158-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+159-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+161-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+162-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+163
+164                <data
+164-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+165                    android:host="firebase.auth"
+165-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+166                    android:path="/"
+166-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+167                    android:scheme="genericidp" />
+167-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+168            </intent-filter>
+169        </activity>
+170        <activity
+170-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+171            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+171-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+172            android:excludeFromRecents="true"
+172-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+173            android:exported="true"
+173-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+174            android:launchMode="singleTask"
+174-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+175-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+176            <intent-filter>
+176-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+177                <action android:name="android.intent.action.VIEW" />
+177-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+177-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+179-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+180                <category android:name="android.intent.category.BROWSABLE" />
+180-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+180-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+181
+182                <data
+182-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+183                    android:host="firebase.auth"
+183-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+184                    android:path="/"
+184-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+185                    android:scheme="recaptcha" />
+185-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\393f8d9cae4ef52cc6eae539a7279369\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+186            </intent-filter>
+187        </activity>
+188
+189        <property
+189-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:30:9-32:61
+190            android:name="android.adservices.AD_SERVICES_CONFIG"
+190-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:31:13-65
+191            android:resource="@xml/ga_ad_services_config" />
+191-->[com.google.android.gms:play-services-measurement-api:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\4200a040a3d90961b1bad0b432d82c3b\transformed\jetified-play-services-measurement-api-21.6.1\AndroidManifest.xml:32:13-58
+192
+193        <provider
+193-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:23:9-28:39
+194            android:name="com.google.firebase.provider.FirebaseInitProvider"
+194-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:24:13-77
+195            android:authorities="com.example.fam1.firebaseinitprovider"
+195-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:25:13-72
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:26:13-43
+197            android:exported="false"
+197-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:27:13-37
+198            android:initOrder="100" />
+198-->[com.google.firebase:firebase-common:20.4.3] C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:28:13-36
+199
+200        <activity
+200-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+201            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+201-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+202            android:excludeFromRecents="true"
+202-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+203            android:exported="false"
+203-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+205        <!--
+206            Service handling Google Sign-In user revocation. For apps that do not integrate with
+207            Google Sign-In, this service will never be started.
+208        -->
+209        <service
+209-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+210            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+210-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+211            android:exported="true"
+211-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+212            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+212-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+213            android:visibleToInstantApps="true" />
+213-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\bb3b87651ff111dc7aab7a37ded6ed38\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+214
+215        <receiver
+215-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:29:9-33:20
+216            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+216-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:30:13-85
+217            android:enabled="true"
+217-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:31:13-35
+218            android:exported="false" >
+218-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:32:13-37
+219        </receiver>
+220
+221        <service
+221-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:35:9-38:40
+222            android:name="com.google.android.gms.measurement.AppMeasurementService"
+222-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:36:13-84
+223            android:enabled="true"
+223-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:37:13-35
+224            android:exported="false" />
+224-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:38:13-37
+225        <service
+225-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:39:9-43:72
+226            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+226-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:40:13-87
+227            android:enabled="true"
+227-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:41:13-35
+228            android:exported="false"
+228-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:42:13-37
+229            android:permission="android.permission.BIND_JOB_SERVICE" />
+229-->[com.google.android.gms:play-services-measurement:21.6.1] C:\Users\SealedOrca\.gradle\caches\transforms-3\86bd80b12485255b9f941307f9be49e1\transformed\jetified-play-services-measurement-21.6.1\AndroidManifest.xml:43:13-69
+230
+231        <activity
+231-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+232            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+232-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+233            android:exported="false"
+233-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+234            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+234-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\7bf6a200716bb99b3c89a60c254787cb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+235
+236        <uses-library
+236-->[androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+237            android:name="androidx.window.extensions"
+237-->[androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+238            android:required="false" />
+238-->[androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+239        <uses-library
+239-->[androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+240            android:name="androidx.window.sidecar"
+240-->[androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+241            android:required="false" />
+241-->[androidx.window:window:1.0.0-beta04] C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+242        <uses-library
+242-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+243            android:name="android.ext.adservices"
+243-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+244            android:required="false" />
+244-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\SealedOrca\.gradle\caches\transforms-3\810adc5c0e0024c477760273e8a5b3b3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+245
+246        <meta-data
+246-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+247            android:name="com.google.android.gms.version"
+247-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+248            android:value="@integer/google_play_services_version" />
+248-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+249
+250        <provider
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+251            android:name="androidx.startup.InitializationProvider"
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+252            android:authorities="com.example.fam1.androidx-startup"
+252-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+253            android:exported="false" >
+253-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+254            <meta-data
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+255                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+256                android:value="androidx.startup" />
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+257        </provider>
+258
+259        <receiver
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+260            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+261            android:directBootAware="false"
+261-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+262            android:enabled="true"
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+263            android:exported="true"
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+264            android:permission="android.permission.DUMP" >
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+265            <intent-filter>
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+266                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+267            </intent-filter>
+268            <intent-filter>
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+269                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+269-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+269-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+270            </intent-filter>
+271            <intent-filter>
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+272                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+273            </intent-filter>
+274            <intent-filter>
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+275                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\SealedOrca\.gradle\caches\transforms-3\e1d29ab400157463110d23cba69478cd\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+276            </intent-filter>
+277        </receiver>
+278    </application>
+279
+280</manifest>

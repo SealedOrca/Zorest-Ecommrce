@@ -44,7 +44,6 @@ dependencies:
   cloud_firestore: 
   firebase_storage: 
   firebase_auth: 
-  firebase_messaging: ^14.7.6
   concentric_transition: ^1.0.3
   fan_carousel_image_slider: ^0.1.2
   get: ^4.6.6
@@ -52,7 +51,21 @@ dependencies:
   logger: ^2.0.2+1
   loggy: ^2.0.3
   firebase_analytics: ^10.8.0
-  
+  animated_notch_bottom_bar: ^1.0.1
+  font_awesome_flutter: ^10.7.0
+  smooth_page_indicator: ^1.1.0
+  animations: ^2.0.11
+  bottom_navy_bar: ^6.0.0
+  flutter_rating_bar: ^4.0.1
+  firebase_database: ^10.4.10
+  flashy_tab_bar2: ^0.0.10
+  cached_network_image: ^3.3.1
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.10+1
+  fl_chart: ^0.67.0
+  modal_bottom_sheet: ^3.0.0
+  sizer: ^2.0.15
+  google_sign_in: ^6.2.1
   
   
   
@@ -108,3 +121,4 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+

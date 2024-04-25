@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class PrivacyPolicyPage extends StatelessWidget {
+  const PrivacyPolicyPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -97,7 +99,7 @@ class PrivacyPolicyPage extends StatelessWidget {
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: PrivacyPolicyPage(),
     ),
   );

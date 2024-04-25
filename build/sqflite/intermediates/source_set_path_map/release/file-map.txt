@@ -1,0 +1,12 @@
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-0 C:\Users\SealedOrca\.gradle\caches\transforms-3\23b97218542bebd118095244a03b924e\transformed\jetified-annotation-experimental-1.1.0\res
+com.tekartik.sqflite-core-1.6.0-1 C:\Users\SealedOrca\.gradle\caches\transforms-3\28ef1927a402a003644c63a1ce3be861\transformed\core-1.6.0\res
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-2 C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-3 C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\res
+com.tekartik.sqflite-main-4 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.3\android\src\main\res
+com.tekartik.sqflite-release-5 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.3\android\src\release\res
+com.tekartik.sqflite-pngs-6 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\generated\res\pngs\release
+com.tekartik.sqflite-resValues-7 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\generated\res\resValues\release
+com.tekartik.sqflite-rs-8 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\generated\res\rs\release
+com.tekartik.sqflite-mergeReleaseResources-9 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tekartik.sqflite-merged_res-11 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\sqflite\intermediates\merged_res\release

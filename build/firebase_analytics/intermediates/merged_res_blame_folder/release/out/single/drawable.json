@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "io.flutter.plugins.firebase.analytics.firebase_analytics-merged_res-17:/drawable/notification_bg.xml",
+        "source": "io.flutter.plugins.firebase.analytics.firebase_analytics-core-1.9.0-7:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "io.flutter.plugins.firebase.analytics.firebase_analytics-merged_res-17:/drawable/notification_tile_bg.xml",
+        "source": "io.flutter.plugins.firebase.analytics.firebase_analytics-core-1.9.0-7:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "io.flutter.plugins.firebase.analytics.firebase_analytics-merged_res-17:/drawable/notification_icon_background.xml",
+        "source": "io.flutter.plugins.firebase.analytics.firebase_analytics-core-1.9.0-7:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "io.flutter.plugins.firebase.analytics.firebase_analytics-merged_res-17:/drawable/notification_bg_low.xml",
+        "source": "io.flutter.plugins.firebase.analytics.firebase_analytics-core-1.9.0-7:/drawable/notification_bg_low.xml"
+    }
+]

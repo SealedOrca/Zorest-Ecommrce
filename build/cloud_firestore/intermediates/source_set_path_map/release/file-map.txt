@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-firebase-common-20.4.3-0 C:\Users\SealedOrca\.gradle\caches\transforms-3\0ae61c535c89a929848fcd50c2ec01c7\transformed\jetified-firebase-common-20.4.3\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-annotation-experimental-1.1.0-1 C:\Users\SealedOrca\.gradle\caches\transforms-3\23b97218542bebd118095244a03b924e\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-core-1.6.0-2 C:\Users\SealedOrca\.gradle\caches\transforms-3\28ef1927a402a003644c63a1ce3be861\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-basement-18.3.0-3 C:\Users\SealedOrca\.gradle\caches\transforms-3\297d3bfa02f9168856e307e3a07dc8f9\transformed\jetified-play-services-basement-18.3.0\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-java-1.0.0-beta04-4 C:\Users\SealedOrca\.gradle\caches\transforms-3\5561d45fe636803b53c8a4a9a1c8de26\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-base-18.0.1-5 C:\Users\SealedOrca\.gradle\caches\transforms-3\585bb87f7f9fd43b643d5993ee93e214\transformed\jetified-play-services-base-18.0.1\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-1.0.0-beta04-6 C:\Users\SealedOrca\.gradle\caches\transforms-3\7283c5932fec04b59c8e626215e3f082\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-main-7 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-4.17.2\android\src\main\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-8 C:\Users\SealedOrca\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-4.17.2\android\src\release\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-9 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\generated\res\pngs\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-10 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\generated\res\resValues\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-rs-11 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\generated\res\rs\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-12 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-13 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-merged_res-14 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\cloud_firestore\intermediates\merged_res\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-packaged_res-15 C:\Users\SealedOrca\Downloads\New folder\Projects\fam1\build\firebase_core\intermediates\packaged_res\release
